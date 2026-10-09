@@ -1,0 +1,60 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2c43d4c9-838b-5625-8145-4b53fc95eba9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:35:05Z",
+    "component": {
+      "type": "application",
+      "name": "ARMI",
+      "version": "17c322a13039",
+      "bom-ref": "pkg:generic/anticloud/ARMI@17c322a13039",
+      "purl": "pkg:generic/anticloud/ARMI@17c322a13039",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "17c322a13039b2ac5354aec65f9828f7580d9959"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/terrapower/armi"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "coverage",
+      "version": ">=7.2.0",
+      "purl": "pkg:pypi/coverage@7.2.0",
+      "bom-ref": "pypi/coverage@>=7.2.0"
+    },
+    {
+      "type": "library",
+      "name": "h5py",
+      "version": ">=3.0",
+      "purl": "pkg:pypi/h5py@3.0",
+      "bom-ref": "pypi/h5py@>=3.0"
+    },
+    {
+      "type": "library",
+      "name": "3.11.0",
+      "version": "unspecified",
+      "purl": "pkg:pypi/3.11.0",
+      "bom-ref": "pypi/3.11.0@unspecified"
+    }
+  ]
+}
